@@ -18,4 +18,5 @@ function checkPalindrome() {
         result.innerText = 'No, it\'s not a palindrome.😔';
     }
     
+    
 }
