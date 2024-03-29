@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Number Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Telephone Number Validator</h1>
+        <form id="telephoneForm" onsubmit="validatePhoneNumber(); return false;">
+            <label for="phoneNumber">Enter a phone number:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter a phone number">
+            <button type="submit">Validate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
